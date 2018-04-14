@@ -1,0 +1,63 @@
+.centerText{
+  width: 95%;
+  height: 900px;
+  color: black;
+  font-size: 15px;
+  background-color: #d5f4e6;
+  margin: 0px 0px 0px 50px;
+  padding: 100px 100px 0px 100px;
+
+  opacity: 0.8;
+
+
+}
+
+.headerText{
+  width: 100%;
+  height: 900px;
+  color: black;
+  font-size: 15px;
+
+  background-image: url(bule_hair_girl.png);
+
+  opacity: 0.8;
+}
+
+.headerDiv{
+  width: 400px;
+  height: 570px;
+  color: black;
+  border-radius: 25px;
+  font-size: 30px;
+
+  margin: 150px 0px 0px 60%;
+  padding: 5px 100px 0px 5px;
+
+  opacity: 0.8;
+}
+
+p{
+	font-size: 20px;
+}
+
+.listDiv{
+  width: 300px;
+  height: 100px;
+  border-radius: 25px;
+  color: black;
+  font-size: 30px;
+  background-color: #5cb2e8;
+  margin:  10px 0px 10px 0%;
+  padding: 10% 0px 0px 30px;
+
+  opacity: 0.8;
+}
+
+body{
+	background-color: lightblue;
+}
+
+.navbar-custom {
+    color: #CC3333;
+    background-color: #CC3333;
+}
