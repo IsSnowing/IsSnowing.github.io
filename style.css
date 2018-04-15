@@ -1,29 +1,48 @@
+
+body{
+  background-color: black;
+}
+
 .centerText{
   width: 95%;
   height: 900px;
-  color: black;
+  color: white;
   font-size: 15px;
-  background-color: #d5f4e6;
+  background-color: black;
   margin: 0px 0px 0px 50px;
   padding: 100px 100px 0px 100px;
 
   opacity: 0.8;
-
-
 }
 
-.headerText{
-  width: 100%;
-  height: 900px;
+.centerText_his{
+  width: 55%;
+  height: 20%;
   color: black;
   font-size: 15px;
+  background-color: #d5f4e6;
+  border-radius: 25px;
+  margin: 0px 0px 0px 20%;
+  padding: 5% 5% 5% 5%;
 
-  background-image: url(bule_hair_girl.png);
+  opacity: 0.8;
+  color: #444444;
+}
+
+.centerText_per{
+  width: 95%;
+  height: 900px;
+  color: white;
+  font-size: 15px;
+  background-color: black;
+  margin: 0px 0px 0px 50px;
+  padding: 100px 100px 0px 100px;
 
   opacity: 0.8;
 }
 
 .headerDiv{
+  z-index: 10;
   width: 400px;
   height: 570px;
   color: black;
@@ -36,8 +55,23 @@
   opacity: 0.8;
 }
 
-p{
-	font-size: 20px;
+.headerText{
+  width: 100%;
+  height: 900px;
+  color: black;
+  font-size: 15px;
+
+ //background-image: url(network.png);
+  //background-size: 1500px 1125px;
+  background-color: black;
+
+  //opacity: 0.8;
+}
+
+.history{
+   background-image: url(beach.jpg); 
+   background-size: 100% ;
+
 }
 
 .listDiv{
@@ -53,11 +87,26 @@ p{
   opacity: 0.8;
 }
 
-body{
-	background-color: lightblue;
+.navbar-custom {
+    color: #ffffff;
+    background-color: #42f49e;
+    min-height: 60px;
+    padding: 0px 0px 0px 20%;
 }
 
-.navbar-custom {
-    color: #CC3333;
-    background-color: #CC3333;
+.navlink{
+  color: white;
+  font-size: 17px;
 }
+
+p{
+  font-size: 20px;
+}
+
+.welcome{
+  position: absolute;
+  z-index: 1;
+  padding: 25% 0px 0px 50%;
+  color: white;
+  font-size: 100px;
+  font-family: "Courier New", Courier, monospace;
