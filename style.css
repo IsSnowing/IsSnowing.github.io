@@ -61,7 +61,7 @@ body{
   color: black;
   font-size: 15px;
 
- //background-image: url(network.png);
+ //background-image: url(images/network.png);
   //background-size: 1500px 1125px;
   background-color: black;
 
@@ -69,7 +69,7 @@ body{
 }
 
 .history{
-   background-image: url(beach.jpg); 
+   background-image: url(images/beach.jpg); 
    background-size: 100% ;
 
 }

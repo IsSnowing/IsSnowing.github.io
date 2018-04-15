@@ -33,16 +33,8 @@
 <header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
   <!--img class="w3-image" src="/w3images/hamburger.jpg" alt="Hamburger Catering" width="1600" height="800"-->
   <div class = 'headerText'>
-    <img id = "image1" src="plane1.png" width="1400" height="404.36" style="position: absolute; left: 4%; top: 15%; z-index: 0;">
-    <!--img id = "image2" src="" width="140" height="140" style="position: absolute; left: 280px; top: 680px; z-index: 1;">
-    <img id = "image3" src="" width="180" height="180" style="position: absolute; left: 420px; top: 690px; z-index: 1;">
-    <img id = "image4" src="" width="220" height="220" style="position: absolute; left: 600px; top: 700px; z-index: 1;">
-    <img id = "image5" src="" width="260" height="260" style="position: absolute; left: 850px; top: 710px; z-index: 1;">
-    <img id = "image6" src="" width="300" height="300" style="position: absolute; left: 1150px; top: 700px; z-index: 1;">
-    <img id = "image7" src="" width="340" height="340" style="position: absolute; left: 1400px; top: 560px; z-index: 1;"-->
-  
-    <p>A script on this page starts this clock:</p>
-      <p id="demo"></p>
+    <img id = "image1" src="images/plane1.png" width="1400" height="404.36" style="position: absolute; left: 4%; top: 15%; z-index: 0;">
+    
     <div class="welcome">
       Welcome
       <br>
@@ -75,7 +67,7 @@
   read and write both in Madirine Chinese, and English.</p>
   
   <p>This is where I was born:</p>
-  <img src="Taiwan_map.png" height="300" width="500">
+  <img src="images/Taiwan_map.png" height="300" width="500">
 </div>
 </div>
 </div>
@@ -162,7 +154,7 @@
 
 
 <script>
-var x = 0;
+//var x = 0;
 var y = 1;
 //document.getElementById("image1").src = "bule_hair_girl.png";
 //setInterval(myTimer, 250);
@@ -178,51 +170,12 @@ function myTimer() {
 
 function plane(){
   if(y == 1){
-    document.getElementById("image1").src = "plane2.png";
+    document.getElementById("image1").src = "images/plane1.png";
     y = 0;
   }else{
-    document.getElementById("image1").src = "plane1.png";
+    document.getElementById("image1").src = "images/plane2.png";
     y = 1;
   }
-}
-
-function image1111(){
-  
-  if(x == 500){
-    document.getElementById("image1").src = "HA.png";
-  }
-  if(x == 1000){
-    document.getElementById("image2").src = "HA.png";
-  }
-  if(x == 1500){
-    document.getElementById("image3").src = "HA.png";
-  }
-  if(x == 2000){
-    document.getElementById("image4").src = "HA.png";
-  }
-  if(x == 2500){
-    document.getElementById("image5").src = "HA.png";
-  }
-  if(x == 3000){
-    document.getElementById("image6").src = "HA.png";
-  }
-  if(x == 3500){
-    document.getElementById("image7").src = "HA.png";
-  }
-  if(x == 4000){
-    x = 0
-  }
-  if(x == 0){
-    document.getElementById("image1").src = "";
-    document.getElementById("image2").src = "";
-    document.getElementById("image3").src = "";
-    document.getElementById("image4").src = "";
-    document.getElementById("image5").src = "";
-    document.getElementById("image6").src = "";
-    document.getElementById("image7").src = "";
-  }
-  x += 500;
-
 }
 </script>
 
@@ -230,3 +183,4 @@ function image1111(){
 </body>
 
 </html>
+s
