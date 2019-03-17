@@ -15,6 +15,11 @@ body{
   opacity: 0.8;
 }
 
+.centerVideo{
+  padding: 100px 100px 0px 100px;
+  margin: 0px 0px 0px 50px;
+}
+
 .centerText_his{
   width: 55%;
   height: 20%;
@@ -61,11 +66,11 @@ footer{
 
 .headerText{
   width: 100%;
-  height: 900px;
+  height: 700px;
   color: black;
   font-size: 15px;
 
- //background-image: url(images/network.png);
+  //background-image: url(images/network.png);
   //background-size: 1500px 1125px;
   background-color: black;
 
