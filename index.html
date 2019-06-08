@@ -10,6 +10,7 @@
 
 
 <html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <head><link rel="shortcut icon" type="image/png" href="images/logo_4dsnow.png" sizes="16x16"/>
 <title>IsSnowing Home</title>
 </head>
@@ -17,7 +18,7 @@
 <body>
 
 
-<nav class="navbar navbar-fixed-top navbar-custom ">
+<!--nav class="navbar navbar-fixed-top navbar-custom ">
   
     <div class="navbar-header">
       <a href="#home" class="navbar-brand" style="padding: 30% 0px 0px 100%"><img src="images/logo_4dsnow.png" width="35" height="35"></a>
@@ -33,127 +34,112 @@
       <li><a class="navlink" href="#his">History</a></li>
       <li><a class="navlink" href="#per">Personal Info</a></li>
       <li><a class="navlink" href="#cs">Computer Science Knowlege</a></li>
-      <!--li><a class="navlink" href="#code">Code</a></li-->
+
       <li><a class="navlink" href="#exp">Experience</a></li>
     </ul>
   </div>
-</nav>
+</nav-->
+
+<div class="dropdown">
+  <button onclick="drop()" class="dropbtn"><img src="images/dropdown.png", width="20px", height="auto"></button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="#skill">Skill</a>
+    <a href="#knowledge">Knowledge</a>
+    <a href="#exp">Experience</a>
+    <a href="#pro">Project</a>
+    <a href="resume.pdf" target="_blank" >Resume</a>
+  </div>
+</div>
 <span id = "home"></span>
 <header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
   
   
   <!--img class="w3-image" src="/w3images/hamburger.jpg" alt="Hamburger Catering" width="1600" height="800"-->
   <div class = 'headerText'>
-    <img id = "image1" src="images/plane1.png" width="1400" height="404.36" style="position: absolute; left: 4%; top: 15%; z-index: 0;">
-    
+    <img id = "image1" src="images/plane1.png" width="90%" height=auto style="position: absolute; left: 4%; top: 15%; z-index: 0;">
     <div class="welcome">
-      Welcome
+      <img src="images/welcome.png" width="50%" height=auto>
       <br>
     </div>
-    <!--div class="headerDiv">
-      
-      <ul style="list-style: none;">
-      <div class="listDiv"><li><a href="#his">History</a></li></div>
-      <div class="listDiv"><li><a href="#per">Personal Info</a></li></div>
-      <div class="listDiv"><li><a href="#cs">Knowlege</a></li></div>
-      <div class="listDiv"><li><a href="#code">Code</a></li></div>
-      <div class="listDiv"><li><a href="#exp">Experience:</a></li></div>
-      </ul>
-    </div-->
   </div>
 </header>
 
-<span id = "demo"></span>
+<!--span id = "demo"></span>
 <div class = "centerVideo">
   <h1 style="color: white">Project Demo</h1>
-<video width="960" height="600" controls>
+<video width="100%" height="auto" controls>
   <source src="OxideGameDemo.mp4" type="video/mp4">
 
   Your browser does not support the video tag.
 </video>
-</div>
+</div-->
 
-<span id = "his"></span>
-
-<div class="history">
-<div class = 'centerText_his' >
-<h1 >History</h1>
-<div>
-  <p>Who am I?</p>
-  <p>I am a currently a thrid year working toward a bacheilor degree of Computer Science, at Rochester Institude of Technology. I was born in Taiwan, then I moved to United State at the age of 12. I can 
-  read and write both in Madirine Chinese, and English.</p>
+<span id = "skill"></span>
+<div class="skill">
+  <h1>Skill: </h1>
+  <hr>
+  <p>Programming Langauage: </p>
   
-  <p>This is where I was born:</p>
-  <img src="images/Taiwan_map.png" height="300" width="500">
-</div>
-</div>
-</div>
-
-<span id = "per"></span>
-<div class = 'centerText_per'>
-  <table>
-    <tr>
-      <td>
-<h1 >Personal Info:</h1>
-<div>
-  <p>English name: Alexander Huang</p>
-  <p>Chinese name: 黃昭維</p>
-  <p>University: Rochester Institude of Technology</p>
-  <p>Major: Computer Science</p>
-  <p>Minor: Economic</p>
-  <p>Age: 21</p>
-  <p>Sex: Male</p>
-  <p>Ethnicity: Asian</p>
-  <p>Citizenship: United States</p>
-  <p>E-mail: axh5400@gmail.com</p>
-  <p>Disability: none</p>
-  <p>Protected Veteran Status: I am not a Protected Veteran</p>
-</div>
-</td>
-<td>
-<div style="padding: 0 0 0 50%">
-  <img src="images/Face.png">
+  <img id = "image1" src="images/c.png" width="100px" height=auto >
+  <img id = "image1" src="images/c++.png" width="100px" height=auto >
+  <img id = "image1" src="images/java.png" width="100px" height=auto >
+  <img id = "image1" src="images/python.png" width="100px" height=auto >
+  <img id = "image1" src="images/javascript.png" width="100px" height=auto >
+  <img id = "image1" src="images/assembly.png" width="100px" height=auto >
+  <img id = "image1" src="images/html.png" width="100px" height=auto >
+  <img id = "image1" src="images/css.png" width="100px" height=auto >
+  <hr>
+  <p>Others: </p>
+  <img id = "image1" src="images/mysql.png" width="100px" height=auto >
+  <img id = "image1" src="images/mongodb.png" width="100px" height=auto >
+  <img id = "image1" src="images/neo4j.png" width="100px" height=auto >
+  <img id = "image1" src="images/django.png" width="100px" height=auto >
+  <img id = "image1" src="images/unity.png" width="100px" height=auto >
+  <hr>
+  <ul style="list-style: none;">
+  <p>Languages: </p>
+    Mandarin Chinese & English
+    <hr>
+  <p>Hardware:</p>
+    Oscilloscope, Digital Multimeter, Waveform Generator
+  </ul>
   </div>
-</td>
-</tr>
-</table>
-</div>
-
-
-<span id = "cs"></span>
-<div class = 'centerText'>
-<h1 >Computer Science Knowledge:</h1>
-<div>
-  <div>
-  <p>Class: </p>
-  <ul style="list-style: none;">
-  <li><p>Data Mining</p></li>
-  <li><p>Analysis Algorithms</p></li>
-  <li><p>Intro to AI</p></li>
-  <li><p>Software Design</p></li>
-  <li><p>Programming Language Concepts</p></li>
-  </ul>
   
-  <p>Langauage, and Framwork: </p>
-  <ul style="list-style: none;">
-  <li><p>Programming Languages: Python, Java, JavaScript, HTML, Bootstrap, C, C#, arms assembly, prolog, Lisp, and VHDL</p></li>
-  <li><p>Database: MySQL, MongoDB, and Neo4j</p></li>
-  <li><p>Foreign Languages: Fluent in Mandarin Chinese </p></li>
-  <li><p>Framework: Django</p></li>
-  <li><p>Software: Unity, Photoshop, Altera Quartus, ModelSim, and CAD</p></li>
-  <li> <p>Hardware: Oscilloscope, Digital Multimeter, Waveform Generator</p></li>
-  </ul>
-</div>
-</div>
+  <span id = "knowledge"></span>
+  <div class = 'cs'>
+  
+    <h1>CS Knowledge:</h1>
+    <p>Relevent Courses: </p>
+    Data Mining<br>
+    Algorithm and Analysis<br>
+    Intro to Intelligent System<br>
+    Software Design<br>
+    Programming Language Concepts<br>
+    Cryptography<br>
+    Computer Vision<br>
+    Data Communication<br>
+    Data Management<br>
+    </ul>
+    <br>
+    <br>
+  </div>
 
-
-<span id = "exp"></span>
+  <span id = "exp"></span>
 <div class = 'centerText'>
 <h1 id = >Experience:</h1>
 <div>
-  <li>Notetaker for NTID student in Rochester Institute of Technology.</li>
-  <li>Internship in a program call Taiwan Tech Trek with a AI software developing company in Taiwan called Intumit, during the summer of 2017.</li>
+  <li>Internship in a program call Taiwan Tech Trek with a AI software developing 
+    company in Taiwan called Intumit, during the summer of 2017.<a href='http://www.intumit.com/english/'>(company website)</a ></li>
+      <ul>
+        <li>Pull informations online in real time, and make it into Json format.</li>
+        <li>Organize csv and xls file for data use to train and test machine learning software. </li>
+        <li>Get and store image from an http address with mjpeg image display on the screen from an actual camera. </li>
+        <li>Test the precision of the machine learning program after running through deep learning. </li>
+        <li>Use html, and css to create a demo web page for company’s new product. </li>
+      </ul>
 </div>
+
+<span id="pro"></span>
 <h1 id = >Projects/Labs:</h1>
 <div>
   <li>Apply different data mining algorithm to form clustering and classification on the data.</li>
@@ -168,9 +154,14 @@
 </div>
 </div>
 
+<div class="centerText">
+<a href="resume.pdf" target="_blank" >Download Resume</a>
+</div>
+
+
 <!--footer >
   #cointainer
-<div class="row container-fluid">
+<div class="centerText">
     <div class="col-sm-3">
       <a href="">sdfa</a>
     </div>
@@ -188,7 +179,6 @@
 <script>
 //var x = 0;
 var y = 1;
-//document.getElementById("image1").src = "bule_hair_girl.png";
 //setInterval(myTimer, 250);
 setInterval(plane, 150);
 //image1111();
@@ -207,6 +197,24 @@ function plane(){
   }else{
     document.getElementById("image1").src = "images/plane2.png";
     y = 1;
+  }
+}
+
+function drop() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
   }
 }
 </script>
